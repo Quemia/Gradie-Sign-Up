@@ -1,4 +1,4 @@
-# Gradie Sig-Up
+# Gradie Sign-Up
 
 -------------------------
 
