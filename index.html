@@ -2,35 +2,33 @@
 <html>
   <head>
     <title>Gradie Sign-Up</title>
-    <link rel="stylesheet" href="public/gradie.css" />
+    <link rel="stylesheet" href="public/style.css" />
   </head>
   <body>
     <div class="container">
       <div class="main">
         <div class="gradieContent">
-          <div class="gradie">
             <h1 class="mainTitle">Gradie</h1>
             <h3 class="mainSubtitle">Beaultiful gradients in seconds</h3>
-            <img class="iphoneImage" src="./public/assets/iPhone Mockup.png" />
-          </div>
+            <img class="iphoneImage" src="./public/assets/iPhone Mockup.png" alt="iPhone" />
         </div> 
-      </div>
       <div class="login">
-        <div class="formContent">
-          <div class="form">
-            <h1 class="title">Login</h1>
-            <p class="inputTitle">Email</p>
-            <input class="input"/>
-            <p class="inputTitle">Password</p>
-            <input class="input" type="password" />
-            </br>
-            <input class="check"type="checkbox" />
-            <p class="formText">
-              By creating an account, you </br> agree to the 
-              <a class="formTermsText">Terms & </br>Conditions.</a>
-            </p>
-            <button>Create an Account</button>
+        <h1 class="title">Login</h1>
+        <form class="formLogin">
+          <p class="inputTitle">Email</p>
+          <input class="input" type="text" placeholder="Your email..."/>
+          <p class="inputTitle">Password</p>
+          <input class="input" type="password"  placeholder="at least 8 characters"/>
+          </br>
+        </form> 
+        <input class="check"type="checkbox" />
+        <div class="formTextContent">
+          <p class="formText">
+          By creating an account, you </br> agree to the 
+            <a class="formTermsText">Terms & </br>Conditions.</a>
+          </p>
         </div>
+        <button class="button">Create an Account</button>
       </div>
     </div>
   </body>
