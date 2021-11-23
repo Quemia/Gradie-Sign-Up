@@ -129,7 +129,6 @@ body {
 
 .formText {
   font-family: "roboto";
-  /* text-align: center; */
   vertical-align: text-bottom;
 }
 
@@ -137,12 +136,10 @@ body {
   font-family: "roboto";
 
   color: rgb(1, 50, 67);
-  /* text-align: center; */
   vertical-align: text-bottom;
 }
 
 .iphoneImage {
-  /* position: absolute; */
   height: 76.9%;
   margin-top: -8rem;
   max-width: 20rem;
